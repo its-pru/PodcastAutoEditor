@@ -74,7 +74,8 @@ You can oly add .mp3 for audio and .mp4 for video.
 You must add the files in the same 
 order for both. So add person 1's audio file before
 person 2's and same goes for video. 
-Then add the midle video file last/ 3rd to the video file button. 
+Then add the midle video file last/ 3rd to the 
+video file button. 
 To check if you did this right you can 
 click the button under the text on the left side
 and it will tell you what file is in what spot.
@@ -84,7 +85,7 @@ end up in the folder where the program is.
 	'''
 text_box = Text(
     win,
-    height=25,
+    height=23,
     width=120
 )
 text_box.pack(expand=True)
