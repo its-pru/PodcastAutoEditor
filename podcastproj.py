@@ -14,7 +14,7 @@ from tkinter import ttk
 win = Tk()
 # Set the geometry of tkinter frame
 
-win.geometry("900x500")			#Size of GUI window
+win.geometry("900x520")			#Size of GUI window
 audio_list = ["nothing yet"]	#List of inputted audio files
 vid_list = ["nothing yet"]		#List of inputted Video files
 
@@ -85,7 +85,7 @@ end up in the folder where the program is.
 	'''
 text_box = Text(
     win,
-    height=23,
+    height=25,
     width=120
 )
 text_box.pack(expand=True)
