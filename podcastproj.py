@@ -5,14 +5,10 @@ from moviepy.audio.AudioClip import concatenate_audioclips
 import numpy as np  # for numerical operations
 import math
 from moviepy.editor import AudioFileClip, VideoFileClip, concatenate_videoclips, CompositeAudioClip
-
-# Import the required libraries
 from tkinter import *
 from tkinter import ttk
 
-# Create an instance of tkinter frame or window
 win = Tk()
-# Set the geometry of tkinter frame
 
 win.geometry("900x520")			#Size of GUI window
 audio_list = ["nothing yet"]	#List of inputted audio files
@@ -94,13 +90,10 @@ text_box.config(state='disabled')
 text_box.place(x = 400, y = 50)	
 
 
-
-# Add a Button Widget
 input1 = ttk.Button(win, text="Select a Audio File", command= open_file).pack(side=BOTTOM)
 input2 = ttk.Button(win, text="Select a Video File", command= open_file2).pack(side=BOTTOM)
 
 input3 = ttk.Button(win, text="Check to see if the file was added successfully", command= files_Added).place(x = 30, y = 180)
-
 
 
 win.mainloop()
