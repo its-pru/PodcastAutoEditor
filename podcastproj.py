@@ -55,14 +55,14 @@ label5.place(x=30,y=140)
 label6 = Label(win, text = "Instructions: ", font = ('Aerial'))
 label6.place(x = 400, y = 30)
 message ='''
-This program is made to auto edit a podcast 
+This program is made to automatically edit a podcast 
 with multiple camera angles. 
 Right now the program can only handle 3 angles. 
 Two angles facing two people and a middle 
 angle that should show both people in frame."
 I plan to make the program allow 
 for more angles in the future. 
-The way to add the video and audo 
+The way to add the video and audio 
 files properly is as follows,
 You must click the respective buttons 
 to add the video and auio files. 
