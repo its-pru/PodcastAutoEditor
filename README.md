@@ -6,6 +6,6 @@ There is a step by step guide in a GUI on how to use this program once you have 
 
 How to install and run the project: First have python3 installed, then install the moviepy module using "pip install moviepy." Then install Tkinter
 using "pip install tk." You also might have to install numpy using "pip install numpy." Then inside the folder where you have this repo cloned,
-run "python3 podcastproj.py" and if the GUI pops up then your golden and everything installed is working properly!
+run "python3 podcastproj.py" and if the GUI pops up then you're golden and everything installed is working properly!
 
 How to use the project: Follow the instrutions in the GUI and your final file will be placed in the same folder you are running the file from. 
